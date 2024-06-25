@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles/normalize.css" />
+        <link rel="stylesheet" href="styles/slick.css" />
+        <link rel="stylesheet" href="styles/style.css" />
+        <title>Ink. House</title>
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <a class="logo" href="#"
+                        ><img src="img/logo.svg" alt="logo"
+                    /></a>
+                    <nav class="header__navbar">
+                        <a class="header__link" href="#">Репродукции</a>
+                        <a class="header__link" href="#">Новинки</a>
+                        <a class="header__link" href="#">О нас</a>
+                        <a class="basket header__basket" href="#"
+                            ><img src="img/basket.svg" alt="basket"
+                        /></a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="welcome">
+                <div class="container">
+                    <div class="welcome__inner">
+                        <img
+                            class="welcome__img"
+                            src="img/main-img.png"
+                            alt="main-img"
+                        />
+                        <div class="welcome__text">
+                            <h1 class="welcome__title">
+                                Реплики картин <br />
+                                от <span>Ink. House</span>
+                            </h1>
+                            <p class="welcome__desc">
+                                Высокое качество отрисовки на плотной бумаге или
+                                льняном холсте. Редкие произведения, доступные
+                                цены.
+                            </p>
+                            <button class="welcome__btn">Продукция</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="cards">
+                <div class="container">
+                    <div class="cards__inner">
+                        <!-- Франция -->
+                        <div class="cards cards__french">
+                            <!-- Охота Амура -->
+                            <div class="card">
+                                <img
+                                    class="card__img"
+                                    src="img/cards/french/1.jpg"
+                                    alt=""
+                                />
+                                <p class="card__author">Марсель Руссо</p>
+                                <h3 class="card__title">Охота Амура</h3>
+                                <p class="card__fabric">Холст, масло (50х80)</p>
+                                <p class="card__price">14 500 руб</p>
+                                <button class="inbasket-btn">В корзину</button>
+                            </div>
+                            <!-- Дама с собачкой -->
+                            <div class="card">
+                                <img
+                                    class="card__img"
+                                    src="img/cards/french/2.jpg"
+                                    alt=""
+                                />
+                                <p class="card__author">Анри Селин</p>
+                                <h3 class="card__title">Дама с собачкой</h3>
+                                <p class="card__fabric">
+                                    Акрил, бумага (50х80)
+                                </p>
+                                <p class="card__price">16 500 руб</p>
+                                <button class="inbasket-btn">В корзину</button>
+                            </div>
+                            <!-- Процедура -->
+                            <div class="card">
+                                <img
+                                    class="card__img"
+                                    src="img/cards/french/3.jpg"
+                                    alt=""
+                                />
+                                <p class="card__author">Франсуа Дюпон</p>
+                                <h2 class="card__title">Процедура</h2>
+                                <p class="card__fabric">
+                                    Цветная литография (40х60)
+                                </p>
+                                <p class="card__price">20 000 руб</p>
+                                <button class="inbasket-btn">В корзину</button>
+                            </div>
+                            <!-- Роза -->
+                            <div class="card">
+                                <img
+                                    class="card__img"
+                                    src="img/cards/french/4.jpg"
+                                    alt=""
+                                />
+                                <p class="card__author">Луи Детуш</p>
+                                <h2 class="card__title">Роза</h2>
+                                <p class="card__fabric">
+                                    Бумага, акрил (50х80)
+                                </p>
+                                <p class="card__price">12 000 руб</p>
+                                <button class="inbasket-btn">В корзину</button>
+                            </div>
+                            <!-- Птичья трапеза -->
+                            <div class="card">
+                                <img
+                                    class="card__img"
+                                    src="img/cards/french/5.jpg"
+                                    alt=""
+                                />
+                                <p class="card__author">Франсуа Дюпон</p>
+                                <h3 class="card__title">Птичья трапеза</h3>
+                                <p class="card__fabric">
+                                    Цветная литография (40х60)
+                                </p>
+                                <p class="card__price">22 500 руб</p>
+                                <button class="inbasket-btn">В корзину</button>
+                            </div>
+                            <!-- Пейзаж с рыбой -->
+                            <div class="card">
+                                <img
+                                    class="card__img"
+                                    src="img/cards/french/6.jpg"
+                                    alt=""
+                                />
+                                <p class="card__author">Пьер Моранж</p>
+                                <h3 class="card__title">Пейзаж с рыбой</h3>
+                                <p class="card__fabric">
+                                    Цветная литография (40х60)
+                                </p>
+                                <p class="card__price">20 000 руб</p>
+                                <button class="inbasket-btn">В корзину</button>
+                            </div>
+                        </div>
+                        <!-- Германия -->
+                        <div class="cards cards__germany">
+                            <!-- Над городом -->
+                            <div class="card">
+                                <img
+                                    class="card__img"
+                                    src="img/cards/germany/1.jpg"
+                                    alt=""
+                                />
+                                <p class="card__author">Курт Вернер</p>
+                                <h3 class="card__title">Над городом</h3>
+                                <p class="card__fabric">
+                                    Цветная литография (40х60)
+                                </p>
+                                <p class="card__price">16 000 руб</p>
+                                <button class="inbasket-btn">В корзину</button>
+                            </div>
+                            <!-- Птенцы -->
+                            <div class="card">
+                                <img
+                                    class="card__img"
+                                    src="img/cards/germany/2.jpg"
+                                    alt=""
+                                />
+                                <p class="card__author">Макс Рихтер</p>
+                                <h3 class="card__title">Птенцы</h3>
+                                <p class="card__fabric">Холст, масло (50х80)</p>
+                                <p class="card__price">14 500 руб</p>
+                                <button class="inbasket-btn">В корзину</button>
+                            </div>
+                            <!-- Среди листьев -->
+                            <div class="card">
+                                <img
+                                    class="card__img"
+                                    src="img/cards/germany/3.jpg"
+                                    alt=""
+                                />
+                                <p class="card__author">Мартин Майер</p>
+                                <h3 class="card__title">Среди листьев</h3>
+                                <p class="card__fabric">
+                                    Цветная литография (40х60)
+                                </p>
+                                <p class="card__price">20 000 руб</p>
+                                <button class="inbasket-btn">В корзину</button>
+                            </div>
+                            <!-- Яркая птица -->
+                            <div class="card">
+                                <img
+                                    class="card__img"
+                                    src="img/cards/germany/4.jpg"
+                                    alt=""
+                                />
+                                <p class="card__author">Герман Беккер</p>
+                                <h3 class="card__title">Яркая птица</h3>
+                                <p class="card__fabric">
+                                    Цветная литография (40х60)
+                                </p>
+                                <p class="card__price">13 000 руб</p>
+                                <button class="inbasket-btn">В корзину</button>
+                            </div>
+                            <!-- Дятлы -->
+                            <div class="card">
+                                <img
+                                    class="card__img"
+                                    src="img/cards/germany/5.jpg"
+                                    alt=""
+                                />
+                                <p class="card__author">Вульф Бауэр</p>
+                                <h3 class="card__title">Дятлы</h3>
+                                <p class="card__fabric">
+                                    Бумага, акрил (50х80)
+                                </p>
+                                <p class="card__price">20 000 руб</p>
+                                <button class="inbasket-btn">В корзину</button>
+                            </div>
+                            <!-- Большие воды -->
+                            <div class="card">
+                                <img
+                                    class="card__img"
+                                    src="img/cards/germany/6.jpg"
+                                    alt=""
+                                />
+                                <p class="card__author">Вальтер Хартманн</p>
+                                <h3 class="card__title">Большие воды</h3>
+                                <p class="card__fabric">
+                                    Бумага, акрил (50х80)
+                                </p>
+                                <p class="card__price">23 000 руб</p>
+                                <button class="inbasket-btn">В корзину</button>
+                            </div>
+                        </div>
+                        <!-- Британия -->
+                        <div class="cards cards__england">
+                            <!-- Дикий зверь -->
+                            <div class="card">
+                                <img
+                                    class="card__img"
+                                    src="img/cards/england/1.jpg"
+                                    alt=""
+                                />
+                                <p class="card__author">Пол Смит</p>
+                                <h3 class="card__title">Дикий зверь</h3>
+                                <p class="card__fabric">
+                                    Акварель, бумага (50х80)
+                                </p>
+                                <p class="card__price">19 500 руб</p>
+                                <button class="inbasket-btn">В корзину</button>
+                            </div>
+                            <!-- Скалистый берег -->
+                            <div class="card">
+                                <img
+                                    class="card__img"
+                                    src="img/cards/england/2.jpg"
+                                    alt=""
+                                />
+                                <p class="card__author">Джон Уайт</p>
+                                <h3 class="card__title">Скалистый берег</h3>
+                                <p class="card__fabric">
+                                    Цветная литография (40х60)
+                                </p>
+                                <p class="card__price">17 500 руб</p>
+                                <button class="inbasket-btn">В корзину</button>
+                            </div>
+                            <!-- Река и горы -->
+                            <div class="card">
+                                <img
+                                    class="card__img"
+                                    src="img/cards/england/3.jpg"
+                                    alt=""
+                                />
+                                <p class="card__author">Джим Уотсон</p>
+                                <h3 class="card__title">Река и горы</h3>
+                                <p class="card__fabric">
+                                    Акварель, бумага (50х80)
+                                </p>
+                                <p class="card__price">20 500 руб</p>
+                                <button class="inbasket-btn">В корзину</button>
+                            </div>
+                            <!-- Белый попугай -->
+                            <div class="card">
+                                <img
+                                    class="card__img"
+                                    src="img/cards/england/4.jpg"
+                                    alt=""
+                                />
+                                <p class="card__author">Юджин Зиллион</p>
+                                <h3 class="card__title">Белый попугай</h3>
+                                <p class="card__fabric">
+                                    Цветная литография (40х60)
+                                </p>
+                                <p class="card__price">15 500 руб</p>
+                                <button class="inbasket-btn">В корзину</button>
+                            </div>
+                            <!-- Ночная рыба -->
+                            <div class="card">
+                                <img
+                                    class="card__img"
+                                    src="img/cards/england/5.jpg"
+                                    alt=""
+                                />
+                                <p class="card__author">Эрик Гиллман</p>
+                                <h3 class="card__title">Ночная рыба</h3>
+                                <p class="card__fabric">
+                                    Бумага, акрил (50х80)
+                                </p>
+                                <p class="card__price">12 500 руб</p>
+                                <button class="inbasket-btn">В корзину</button>
+                            </div>
+                            <!-- Рыжий кот -->
+                            <div class="card">
+                                <img
+                                    class="card__img"
+                                    src="img/cards/england/6.jpg"
+                                    alt=""
+                                />
+                                <p class="card__author">Альфред Барр</p>
+                                <h3 class="card__title">Рыжий кот</h3>
+                                <p class="card__fabric">
+                                    Цветная литография (40х60)
+                                </p>
+                                <p class="card__price">21 000 руб</p>
+                                <button class="inbasket-btn">В корзину</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="promo">
+                <div class="container">
+                    <div class="promo__inner">
+                        <h2 class="promo__title">
+                            <img
+                                src="img/Star.svg"
+                                alt="star"
+                                class="promo__star"
+                            />Новая коллекция французских авторов
+                        </h2>
+                        <p class="promo__desc">
+                            Сложно сказать, почему акционеры крупнейших компаний
+                            призывают нас к новым свершениям, которые, в свою
+                            очередь, должны быть заблокированы в рамках своих
+                            собственных рациональных ограничений.
+                        </p>
+                        <p class="promo__desc">
+                            Принимая во внимание показатели успешности, граница
+                            обучения кадров предопределяет высокую
+                            востребованность направлений прогрессивного
+                            развития.
+                        </p>
+                        <button class="promo__btn">Ознакомиться</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="team">
+                <div class="container">
+                    <div class="team__inner">
+                        <img
+                            class="team__img"
+                            src="img/team/Group.png"
+                            alt="team__img"
+                        />
+                        <div class="team__text">
+                            <h2 class="team__title">Наша команда</h2>
+                            <p class="team__desc">
+                                Значимость этих проблем настолько очевидна, что
+                                базовый вектор развития позволяет оценить
+                                значение экспериментов, поражающих по своей
+                                масштабности и грандиозности. Мы вынуждены
+                                отталкиваться от того, что консультация с
+                                широким активом.
+                            </p>
+                            <div class="team__humans">
+                                <img
+                                    class="team__human"
+                                    src="img/team/woman.png"
+                                    alt="woman"
+                                />
+                                <img
+                                    class="team__human"
+                                    src="img/team/man1.png"
+                                    alt="man1"
+                                />
+                                <img
+                                    class="team__human"
+                                    src="img/team/man2.png"
+                                    alt="man2"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer__inner">
+                        <div class="footer__contact-info">
+                            <a href="#"
+                                ><img
+                                    class="logo"
+                                    src="img/logo.svg"
+                                    alt="logo"
+                            /></a>
+                            <table>
+                                <tr>
+                                    <th>
+                                        <a class="footer__tel" href="#"
+                                            >+7 (999) 543-54-54</a
+                                        >
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <td>Мастерская</td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="footer__reproductions">
+                            <table>
+                                <tr>
+                                    <th><a href="#">Репродукции</a></th>
+                                    <th><a href="#">Новинки</a></th>
+                                    <th><a href="#">О нас</a></th>
+                                </tr>
+
+                                <tr>
+                                    <td><a href="#">Франция</a></td>
+                                    <td><a href="#">2021</a></td>
+                                    <td><a href="#">Художники</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">Германия</a></td>
+                                    <td><a href="#">2020</a></td>
+                                    <td><a href="#">Менеджеры</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">Англия</a></td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="footer__copyright">
+                            <div class="footer__social-links">
+                                <a class="footer__social-link" href="#">
+                                    <img
+                                        src="img/social-icons/facebook.svg"
+                                        alt="facebook"
+                                    />
+                                </a>
+                                <a class="footer__social-link" href="#">
+                                    <img
+                                        src="img/social-icons/insta.svg"
+                                        alt="insta"
+                                    />
+                                </a>
+                                <a class="footer__social-link" href="#">
+                                    <img
+                                        src="img/social-icons/youtube.svg"
+                                        alt="youtube"
+                                    />
+                                </a>
+                            </div>
+                            <div class="footer__rigths">
+                                <p>Ink. House ®</p>
+                                <p>All rights reserved</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </main>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
